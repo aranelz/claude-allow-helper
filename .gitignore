@@ -1,0 +1,58 @@
+# .NET / Visual Studio
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+.vs/
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+*.rsuser
+*.DotSettings.user
+
+# Publish and local build output
+artifacts/
+publish/
+release/
+TestResults/
+*.trx
+*.coverage
+coverage*
+
+# NuGet
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+
+# Local logs and dumps (runtime files live under %AppData%\ClaudeAllowHelper)
+*.log
+ui-dump.txt
+
+# Archives and packaged binaries (do not commit generated releases)
+*.zip
+*.7z
+*.rar
+
+# Secrets and local machine config
+.env
+.env.*
+*.pfx
+*.snk
+*.pem
+appsettings.*.local.json
+
+# OS / editor
+Thumbs.db
+Desktop.ini
+.DS_Store
+.idea/
+.vscode/
+.cursor/
+
+# Temporary files
+*.tmp
+*.temp
+*~
+~$*
